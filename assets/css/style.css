@@ -1,0 +1,484 @@
+@import url(root.css);
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none !important;
+    list-style-type: none !important;
+    box-sizing: border-box !important;
+    border: 1px
+}
+                                    /* nav-bar */
+.gap-30{
+    gap: 30px;
+}
+.button-wallet{
+    display: inline-flex;
+padding: 12px 32px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 10px;
+background: #FFF;
+border: none;
+cursor: pointer;
+}
+.p-absolute{
+    position: absolute;
+    top: 48%;
+    right: 36%;
+}
+.mt-10{
+    margin-top: 10px;
+}
+.max-width-886{
+    max-width: 806px;
+}
+.pb-160{
+    padding-bottom: 160px;
+}
+.f-nav-ul:hover{
+    transition: all 200ms linear;
+}
+                                    /* hero section */
+.pt-73{
+    padding-top: 73px;
+}
+.hm-burger1-absolute{
+    position: absolute;
+    top: 5%;
+    left: 12%;
+} 
+.hm-burger2-absolute{
+    position: absolute;
+    top:43% ;
+    left: 0%;
+}              
+.hm-burger3-absolute{
+    position: absolute;
+    top: 5%;
+    right:0% ;
+}              
+.hm-burger4-absolute{
+    position: absolute;
+    top: 52%;
+    right:12% ;
+}   
+.cheese-burger1-absolute{
+    position: absolute;
+    top: -2%;
+    left:0% ;
+} 
+.cheese-burger2-absolute{
+    position: absolute;
+    top:13%;
+    right:19% ;
+}
+.cheese-burger3-absolute{
+    position: absolute;
+    top: 57%;
+    left:12% ;
+}
+.cheese-burger4-absolute{
+    position: absolute;
+    top:51%;
+    right:0% ;
+}                                             
+                                    /* ist section */
+.f-have{
+    opacity: 0.8;
+}
+.btn-discover{
+    display: inline-flex;
+padding: 15px 32px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 10px;
+border: none;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+.pt-66{
+    padding-top: 66px;
+}
+.mx-806{
+    max-width: 806px;
+}
+                                    /* 2nd section */
+.pb-20{
+    padding-bottom: 20px;
+}
+.px-100{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+                                    /* 3rd section */
+.pt-30{
+    padding-top: 30px;
+}
+.pb-30{
+    padding-bottom: 30px;
+}
+.pb-60{
+    padding-bottom: 60px;
+}
+                                /* 4th section(roadmap) */
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.hm-roadmap-burger1-absolute{
+    position: absolute;
+    top: -1%;
+    left: 88%;
+}
+.hm-roadmap-burger2-absolute{
+    position: absolute;
+    top: 70%;
+    left:60% ;
+}
+.hm-roadmap-burger3-absolute{
+    position: absolute;
+    top: 50%;
+    left: 22%;
+}
+.hm-roadmap-burger4-absolute{
+    position: absolute;
+    top: 85%;
+    left:0 ;
+}
+.cheese-roadmap-burger1-absolute{
+    position: absolute;
+    top: 2%;
+    right: 79%;
+}
+.cheese-roadmap-burger2-absolute{
+    position: absolute;
+    top: 24%;
+    right:20%;
+}
+.cheese-roadmap-burger3-absolute{
+    position: absolute;
+    top: 44%;
+    right: 88%;
+}
+.cheese-roadmap-burger4-absolute{
+    position: absolute;
+    top:73%;
+    right:2%;
+}
+.pt-20{
+    padding-top: 20px;
+}
+.pb-20{
+    padding-bottom: 20px;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color:#F4241E;
+  top: 0;
+  bottom: 37%;
+  left: 50%;
+  margin-left: -3px;
+}
+
+/* Container around content */
+.roadmap-container {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+/* The circles on the timeline */
+.roadmap-container::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 24px;
+  right: -13px;
+  background-color: white;
+  border: 4px solid white;
+  top: 0px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* Place the container to the left */
+.left {
+  left: 0;
+}
+
+/* Place the container to the right */
+.right {
+  left: 50%;
+}
+/* Fix the circle for containers on the right side */
+.right::after {
+  left: -12px;
+}
+
+/* The actual content */
+.content {
+  padding: 20px 30px;
+  background-color: white;
+  position: relative;
+  border-radius: 6px;
+}
+        
+                                    /* 5th section */
+.pt-150{
+    padding-top: 150px;
+}
+                                    /* footer */
+.accordion-item{
+    border: unset !important;
+
+}                                    
+.accordion-button{
+    padding-top: 23px !important;
+    padding-bottom: 24px !important;
+}
+.f-copyright{
+    opacity: 0.7;
+}
+.mx-524{
+    max-width: 524px;
+}
+.pb-26{
+    padding-bottom: 26px;
+}
+.pl-46{
+    padding-left: 46px;
+}
+.pt-26{
+    padding-top: 26px;
+}
+.pb-44{
+    padding-bottom: 44px;
+}
+.mt-8{
+    margin-top: 8px;
+}
+.pt-52{
+    padding-top: 52px;
+}
+.pt-58{
+    padding-top: 58px;
+}
+.pt-88{
+    padding-top: 88px;
+}
+p{
+    margin-bottom: unset !important;
+}
+
+@media (max-width:400px) {
+    .timeline::after {
+        content: '';
+        position: absolute;
+        width: 6px;
+        background-color: #F4241E;
+        top: 1%;
+        bottom: 25%;
+        left: 27px;
+        margin-left: -3px;
+    }
+    
+}
+                                 /* breakpoints */
+@media (min-width:320px) {
+    .f-roadmap{
+        font-size: var(--fs-40);
+        font-weight: var(--fw-700);
+        color: var(--text-black);
+    }
+    
+}
+
+@media (min-width:576px) {
+    .f-sm-roadmap{
+        font-size: var(--fs-48);
+        font-weight: var(--fw-700);
+        color: var(--text-black);
+    }
+    .f-sm-popularised{
+        font-size:var(--fs-48) ;
+        font-weight: var(--fw-700);
+        color: var(--text-black);
+    }
+    /* The actual timeline (the vertical ruler) */
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color:#F4241E;
+    top: 0;
+    bottom: 34%;
+    left: 50%;
+    margin-left: -3px;
+  }
+    .px-sm-100{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .pt-sm-66{
+        padding-top: 66px;
+    }
+    .pt-sm-73{
+        padding-top: 73px;
+    }
+    .pb-sm-97{
+        padding-bottom: 97px;
+    }
+    .pb-sm-100{
+        padding-bottom: 100px;
+    }                        
+}
+@media (min-width:768px) {
+    .pb-md-60{
+        padding-bottom: 60px;
+    }
+    /* The actual timeline (the vertical ruler) */
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color:#F4241E;
+    top: 0;
+    bottom: 38%;
+    left: 50%;
+    margin-left: -3px;
+  }
+}
+@media (min-width:992px) {
+    /* The circles on the timeline */
+.roadmap-container::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 24px;
+    right: -13px;
+    background-color: white;
+    border: 4px solid white;
+    top: -10px;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  /* The actual timeline (the vertical ruler) */
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color:#F4241E;
+    top: 0;
+    bottom: 38%;
+    left: 50%;
+    margin-left: -3px;
+  }
+}
+
+                                 
+@media screen and (max-width: 576px) {
+  /* Place the timelime to the left */
+  .timeline::after {
+  left: 31px;
+  }
+  .timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color:#F4241E;
+    top: 1%;
+    bottom: 24%;
+    left: 27px;
+    margin-left: -3px;
+  }
+  
+  /* Full-width containers */
+  .roadmap-container {
+  width: 100%;
+  padding-left: 70px;
+  padding-right: 25px;
+  }
+  
+  /* Make sure that all arrows are pointing leftwards */
+  .roadmap-container::before {
+  left: 60px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+  }
+
+  /* Make sure all circles are at the same spot */
+  .left::after, .right::after {
+  left: 15px;
+  }
+  
+  /* Make all right containers behave like the left ones */
+  .right {
+  left: 0%;
+  }
+}
+@media (max-width:1200px) {
+    label[for="iconbar"] {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 40px;
+        height: 30px;
+        z-index: 3;
+        cursor: pointer;
+        align-items: center;
+        position: fixed;
+        right: 5px;
+        top: 10px;
+    }
+
+    label[for="iconbar"]>span {
+        width: 100%;
+        height: 4px;
+        background-color: rgb(91, 162, 224);
+        z-index: 1;
+    }
+
+    input[type="checkbox"]:checked+ul.small-screen {
+        right: 0;
+        pointer-events: all;
+        opacity: 1;
+    }
+
+    .small-screen {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        right: -1000px;
+        background-color: #fff03f;
+        pointer-events: none;
+        z-index: 2;
+        opacity: 0;
+        transition: all 800ms linear;
+        top: 0;
+    }
+
+    .mx-ml-0 {
+        margin-left: 0px;
+    }
+
+    .mx-mr-0 {
+        margin-right: 0px;
+    }
+
+    .mx-my-30 {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
